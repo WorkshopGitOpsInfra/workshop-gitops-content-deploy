@@ -11,6 +11,7 @@ global:
     enabled: true 
   namespace: openshift-operators
   domain: sandbox2792
+  sharding: 3 # amount of sno clusters
   sno:
     1: 
       token: sha256~1Pp7k5nm-pX1jsqvKXSZAz_jdKXG04Xjb5ctyJpV_mI    

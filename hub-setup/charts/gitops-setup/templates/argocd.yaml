@@ -53,7 +53,7 @@ spec:
   controller:
     sharding:
       enabled: true
-      replicas: 15
+      replicas: {{ $.Values.global.sharding }} 
     logLevel: debug
     resources:
       limits:
