@@ -10,7 +10,7 @@ global:
   rbac: 
     enabled: true 
   namespace: openshift-operators
-  domain: sandbox2792
+  domain: <domain>
   sharding: <amount_of_sno>
   sno:
     1: 
